@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="Deprecated">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="421dp"
+        android:layout_height="274dp"
+        android:layout_x="61dp"
+        android:layout_y="3dp"
+        android:src="@drawable/hanoi_background" />
+
+    <View android:id="@+id/dArea"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        class="com.as.drawing.DrawShape"/>
+
+</AbsoluteLayout>
